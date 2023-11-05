@@ -1,12 +1,37 @@
 @charset "utf-8";
 
+:root{
+   --preto-rico: #0B0E17;
+   --cor01: #10212A;
+}
+/*
+#topo{
+   background-color: var(--cor01);
+   color: white;
+}*/
+
+#foto{
+   border-radius: 30px;
+   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.356);
+}
+
+#btverpj{
+   border: solid black 1px;
+   border-radius: 20px;
+   text-decoration: none;
+   padding: 4px;
+   background-color: #2B3035;
+   color: white;
+   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.377) ;
+}
+
  .btop {
     cursor: pointer;
     position: fixed;
     right: 15px;
     bottom: 15px;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     border: 1px solid white;
     color: red;
