@@ -24,6 +24,11 @@
    color: white;
    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.377) ;
 }
+#btverpj:hover{
+   background-color: white;
+   color: #2B3035;
+   border: solid white 1px;
+}
 
  .btop {
     cursor: pointer;
