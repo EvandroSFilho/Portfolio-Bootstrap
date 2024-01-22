@@ -16,18 +16,17 @@
 }
 
 #btverpj{
-   border: solid black 1px;
-   border-radius: 20px;
+   border-radius: 0;
    text-decoration: none;
    padding: 4px;
    background-color: #2B3035;
    color: white;
-   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.377) ;
+   padding: 7px 18px;
 }
 #btverpj:hover{
-   background-color: white;
-   color: #2B3035;
-   border: solid white 1px;
+   background-color: #4B4F53;
+   color: #fff;
+  
 }
 
  .btop {
@@ -48,3 +47,5 @@
     padding-top: 25px;
     text-align: center;
  }
+
+ 
