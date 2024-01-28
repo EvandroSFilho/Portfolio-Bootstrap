@@ -1,14 +1,47 @@
 @charset "utf-8";
-
+/*Lista de cores*/
 :root{
    --preto-rico: #0B0E17;
    --cor01: #10212A;
 }
-/*
-#topo{
-   background-color: var(--cor01);
-   color: white;
-}*/
+/*Cores dos icones*/
+.linkedin{
+   color: #087bb9;
+}
+.bi-linkedin{
+   color: #087bb9;
+}
+.github{
+   color: #fff;
+}
+.bi-github{
+   color: #fff;
+}
+.envelope{
+   color: #e04444;
+}
+.bi-envelope-at{
+   color: #e04444;
+}
+.whatsapp{
+   color: #7fffd4;
+}
+.bi-whatsapp{
+   color: #7fffd4;
+}
+.file{
+   color: #e04444;
+}
+.bi-file-earmark-pdf{
+   color: #e04444;
+}
+.dowload{
+   color: #fff;
+}
+.bi-download{
+   color: #fff;
+}
+
 
 #foto{
    border-radius: 30px;
@@ -47,5 +80,8 @@
     padding-top: 25px;
     text-align: center;
  }
-
+/*Sobre*/
+#sobre{
+   border-top: 2px solid #4b4f538c;
+}
  
