@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*Lista de cores*/
+:root {
+   --preto-rico: #0B0E17;
+   --cor01: #10212A;
+}
+
+/*Bady*/
+#cor-fundo {
+   background-color: #030518;
+}
+
+/*carousel*/
+.carousel-item img {
+   margin: auto;
+   width: 40em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/*Descrição-centro*/
+p {
+   color: #8899A6;
+}
+
+/* CARDS */
+
+.card img {
+   width: 500px;
+   margin: 1em auto;
+}
+
+#card-cor {
+   background-color: #072b3f;
+   color: white;
+}
+
+.card h5 {
+   text-align: center;
+   padding-bottom: 1em;
+}
+
+.card p {
+   color: white;
+}
+
+#btverpj {
+   border-radius: 20px;
+   text-decoration: none;
+   padding: 4px;
+   background-color: #2B3035;
+   color: white;
+   padding: 7px 18px;
+}
+
+#btverpj:hover {
+   background-color: #fff;
+   color: #4B4F53;
+}
+
+/*Cores dos icones*/
+.linkedin {
+   color: #087bb9;
+}
+
+.bi-linkedin {
+   color: #087bb9;
+}
+
+.github {
+   color: #000000;
+}
+
+.bi-github {
+   color: #000000;
+}
+
+.envelope {
+   color: #e04444;
+}
+
+.bi-envelope-at {
+   color: #e04444;
+}
+
+.whatsapp {
+   color: #7fffd4;
+}
+
+.bi-whatsapp {
+   color: #7fffd4;
+}
+
+.file {
+   color: #e04444;
+}
+
+.bi-file-earmark-pdf {
+   color: #e04444;
+}
+
+.dowload {
+   color: #fff;
+}
+
+.bi-download {
+   color: #fff;
+}
+
+
+
+
+.btop {
+   cursor: pointer;
+   position: fixed;
+   right: 15px;
+   bottom: 15px;
+   width: 55px;
+   height: 55px;
+   border-radius: 50%;
+   border: 1px solid white;
+   color: red;
+}
+
+.dfrase {
+   background-color: rgba(0, 0, 0, 0.356);
+   height: 100px;
+   padding-top: 25px;
+   text-align: center;
+}
+
+/*Sobre*/
+#sobre {
+   border-top: 2px solid #4b4f538c;
+}
+
+#text-sobre {
+   color: #8899A6;
+}
