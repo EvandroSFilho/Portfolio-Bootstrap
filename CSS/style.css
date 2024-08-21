@@ -1,13 +1,13 @@
-@charset "utf-8";
-
-/*Lista de cores*/
-:root {
-   --preto-rico: #0B0E17;
-   --cor01: #10212A;
+/* FONTS */
+* {
+   font-family: "Roboto Slab", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
 }
 
 /* BODY */
-#cor-fundo {
+body {
    background-color: #030518;
 }
 
@@ -32,7 +32,6 @@
 .bi-file-earmark-pdf {
    color: #e04444;
 }
-
 
 .whatsapp,
 .bi-whatsapp {
@@ -67,7 +66,7 @@ p {
 
 #card-cor {
    background-color: #072b3f;
-   color: white;
+   color: #ffffff;
 }
 
 .card h5 {
@@ -76,7 +75,7 @@ p {
 }
 
 .card p {
-   color: white;
+   color: #ffffff;
 }
 
 #btverpj {
@@ -84,7 +83,7 @@ p {
    text-decoration: none;
    padding: 4px;
    background-color: #2B3035;
-   color: white;
+   color: #ffffff;
    padding: 7px 18px;
 }
 
@@ -101,8 +100,8 @@ p {
    width: 55px;
    height: 55px;
    border-radius: 50%;
-   border: 1px solid white;
-   color: red;
+   border: 1px solid #ffffff;
+   color: #ff0000;
 }
 
 .dfrase {
