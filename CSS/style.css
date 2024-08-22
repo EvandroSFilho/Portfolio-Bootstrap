@@ -97,11 +97,11 @@ p {
    position: fixed;
    right: 15px;
    bottom: 15px;
-   width: 55px;
-   height: 55px;
+   width: 45px;
+   height: 45px;
    border-radius: 50%;
-   border: 1px solid #ffffff;
-   color: #ff0000;
+   border: 3px solid #c0bebe2c;
+   background-color: #072b3f;
 }
 
 .dfrase {
