@@ -52,8 +52,9 @@ body {
    align-items: center;
 }
 
-/*Descrição-centro*/
-p {
+/*Descriçõs*/
+p,
+h2 {
    color: #8899A6;
 }
 
@@ -64,7 +65,7 @@ p {
    margin: 1em auto;
 }
 
-#card-cor {
+.card-cor {
    background-color: #072b3f;
    color: #ffffff;
 }
@@ -78,7 +79,7 @@ p {
    color: #ffffff;
 }
 
-#btverpj {
+.btverpj {
    border-radius: 20px;
    text-decoration: none;
    padding: 4px;
@@ -87,11 +88,12 @@ p {
    padding: 7px 18px;
 }
 
-#btverpj:hover {
+.btverpj:hover {
    background-color: #fff;
    color: #4B4F53;
 }
 
+/* BOTÃO VOLTAR AO TOPO */
 .btop {
    cursor: pointer;
    position: fixed;
@@ -110,12 +112,49 @@ p {
    padding-top: 25px;
    text-align: center;
 }
-
-/*Sobre*/
-#sobre {
-   border-top: 2px solid #4b4f538c;
+/* SOFT E HARD SKILLS */
+.skills, .hard{
+   border-top: 1px solid #fff;
+   margin-top: 50px;
+   padding-top: 20px;
 }
 
-#text-sobre {
+
+/* SOFT SKILLS */
+.border-skills {
+   border: 1px solid #c0bebe2c;
+   border-radius: 5px;
+   margin: 2px;
+}
+
+/* HARD SKILLS */
+.ico-skills {
+   width: 80px;
+   height: 80px;
+   padding: 5px;
+   margin: 10px;
+   background-color: #8899A6;
+   border-radius: 15px;
+}
+
+.ico-skills:hover {
+   background-color: #4b575f;
+   transition: 1s;
+}
+
+/*SOBRE*/
+.div-sobre {
+   border-top: 2px solid #4b4f538c;
+   margin-top: 20px;
+}
+
+.text-sobre {
    color: #8899A6;
+}
+
+/* FOOTER */
+.footer{
+   text-align: center;
+   color: #fff;
+   padding: 13px;
 }
