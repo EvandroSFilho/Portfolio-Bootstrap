@@ -52,7 +52,7 @@ body {
    align-items: center;
 }
 
-/*Descriçõs*/
+/*Descrição*/
 p,
 h2 {
    color: #8899A6;
@@ -125,6 +125,13 @@ h2 {
    border: 1px solid #c0bebe2c;
    border-radius: 5px;
    margin: 2px;
+}
+
+.border-skills:hover
+{
+   background-color: #087bb917;
+   transition: 1s;
+   border-radius: 50px;
 }
 
 /* HARD SKILLS */
