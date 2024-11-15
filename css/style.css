@@ -1,6 +1,6 @@
 /* FONTS */
 * {
-   font-family: "Roboto Slab", serif;
+   font-family: "Montserrat", sans-serif;
    font-optical-sizing: auto;
    font-weight: weight;
    font-style: normal;
@@ -72,7 +72,8 @@ h2 {
 
 .card h5 {
    text-align: center;
-   padding-bottom: 1em;
+   padding: 5px 0px 8px 0px;
+   border-top: 1px solid #ffffff48;
 }
 
 .card p {
@@ -80,17 +81,19 @@ h2 {
 }
 
 .btverpj {
-   border-radius: 20px;
+   border: 1px solid #6BA9B1;
+   border-radius: 3px;
    text-decoration: none;
-   padding: 4px;
-   background-color: #2B3035;
+   padding: 5px 30px;
+   background-color: #072b3f;
    color: #ffffff;
-   padding: 7px 18px;
+
 }
 
 .btverpj:hover {
-   background-color: #fff;
-   color: #4B4F53;
+   background-color: #030518;
+   color: #fff;
+   border: none;
 }
 
 /* BOTÃO VOLTAR AO TOPO */
@@ -112,8 +115,10 @@ h2 {
    padding-top: 25px;
    text-align: center;
 }
+
 /* SOFT E HARD SKILLS */
-.skills, .hard{
+.skills,
+.hard {
    border-top: 1px solid #fff;
    margin-top: 50px;
    padding-top: 20px;
@@ -127,8 +132,7 @@ h2 {
    margin: 2px;
 }
 
-.border-skills:hover
-{
+.border-skills:hover {
    background-color: #087bb917;
    transition: 1s;
    border-radius: 50px;
@@ -160,7 +164,7 @@ h2 {
 }
 
 /* FOOTER */
-.footer{
+.footer {
    text-align: center;
    color: #fff;
    padding: 13px;
